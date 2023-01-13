@@ -1,0 +1,16 @@
+
+        if (data.length() == 0) {
+            return Collections.singletonList(new Segment(nameFunction.apply(0), ""));
+        }
+
+        int numSegments = (data.length() / segmentSize) + (data.length() % segmentSize == 0 ? 0 : 1);
+        List<Segment> wrk = new ArrayList<>();
+        for (int i = 0; i < numSegments; ++i) {
+            int start = i * segmentSize;
+            int end = start + segmentSize;
+            if (end > data.length()) {
+                end = data.length();
+            }
+            Segment segm = new Segment(nameFunction.apply(i), data.subSequence(start, end).toString());
+            wrk.add(segm);
+        }
