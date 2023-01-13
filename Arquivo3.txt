@@ -14,3 +14,9 @@
             Segment segm = new Segment(nameFunction.apply(i), data.subSequence(start, end).toString());
             wrk.add(segm);
         }
+
+
+
+
+
+Texto versão 1
