@@ -1,4 +1,4 @@
-
+// Alterado aqui!!
         if (data.length() == 0) {
             return Collections.singletonList(new Segment(nameFunction.apply(0), ""));
         }
