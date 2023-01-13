@@ -1,0 +1,7 @@
+#------------------------------------------------------------------------------------
+# OUTRAS COISAS - TESTES
+#------------------------------------------------------------------------------------
+local.bai.servhibern.dataaccess.DBMidairCollisionDetector.flagEnabled=FALSE
+dgrm.bmar.common.web.sso.SSOConfig.sso_provider_location=http://ssoprov.local.host:8080/BMAR_SSO
+dgrm.bmar.common.web.sso.SSOConfig.auth_application_location=http://ssoprov.local.host:8080/BMAR_Geral
+#dgrm.bmar.common.web.sso.SSOConfig.auth_application_location=http://authent.local.host:8080/BMAR_Geral
