@@ -1,0 +1,11 @@
+dgrm.bmar.common.wserv.utils.JWSLogLifecyclePoller.preserveFromClearing=300000
+dgrm.bmar.common.wserv.utils.JWSLogLifecyclePoller.preserveFromDeletion=500000
+dgrm.bmar.common.wserv.utils.JWSLogLifecyclePoller.timerLogs_active=false
+
+#------------------------------------------------------------------------------------
+# Parameters for class "local.bai.servhibern.context.DataContext"
+#------------------------------------------------------------------------------------
+local.bai.servhibern.context.DataContext.sessionLeakSuspect_intervalMinutes=1
+local.bai.servhibern.context.DataContext.sessionLeakSuspect_thresholdMinutes=1
+local.bai.servhibern.context.DataContext.sessionLeakSuspect_autoGC_flag=true
+local.bai.servhibern.context.DataContext.sessionLeakSuspect_autoGC_thresholdCount=
